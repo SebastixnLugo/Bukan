@@ -1,0 +1,35 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 0 4rem 0;
+
+    h4 {
+        font-family: $poppins;
+        font-size: 17px;
+    }
+}
+
+.medios_pago {
+    margin-left: 1rem;
+}
+
+.footer_center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contacto {
+    margin-right: 1rem;
+}
+
+.debajo_footer {
+    font-family: $poppins;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 0 2rem 0;
+}

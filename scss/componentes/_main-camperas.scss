@@ -1,0 +1,55 @@
+main {
+    margin: 0 260px 0 260px;
+    font-family: $poppins;
+}
+
+.banner_camperas {
+    margin-bottom: 4rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.title_section {
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0 4rem 0;
+}
+
+.shop_content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    gap: 1.5rem;
+}
+
+.product_box:hover {
+    padding: 10px;
+    border: 1px solid black;
+    transition: 0.4s;
+}
+
+.product_img {
+    height: auto;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.product_title {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.precio {
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.add_cart {
+    display: flex;
+    justify-content:right;
+    align-items:center;
+    padding: 10px;
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
+}

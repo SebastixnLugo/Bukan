@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+}
+
+a, a:link {
+    text-decoration: none;
+    color: #000;
+}
+
+//FUENTES
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+$poppins: 'Poppins', sans-serif;
+
+body {
+    scroll-behavior: smooth;
+}
